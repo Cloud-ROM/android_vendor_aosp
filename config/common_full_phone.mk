@@ -15,5 +15,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     net.tethering.noprovisioning=true
 
+# Wallet app for Power menu integration
+# https://source.android.com/devices/tech/connect/quick-access-wallet
+PRODUCT_PACKAGES += \
+    QuickAccessWallet
+
 # Inherit full common CloudROM stuff
 $(call inherit-product, vendor/aosp/config/common_full.mk)
