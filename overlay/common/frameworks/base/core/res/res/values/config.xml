@@ -83,5 +83,6 @@
         <item>im.vector.app</item>
         <item>cx.ring</item>
         <item>org.briarproject.briar.android</item>
+        <item>com.facebook.mlite</item>
     </string-array>
 </resources>
